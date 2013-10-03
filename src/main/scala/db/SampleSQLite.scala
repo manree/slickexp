@@ -39,7 +39,7 @@ object SampleSQLite {
       Cats.insert(67, "Vlad")
       Cats.insert(85, "Igor")
       
-       // Iterate through all persons
+       // Iterate through all cats
       Query(Cats) foreach {
         case (id, name) =>
           println("  " + name + "\t" + id)
