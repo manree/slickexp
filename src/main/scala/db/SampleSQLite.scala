@@ -25,7 +25,7 @@ object SampleSQLite {
       driver = "org.sqlite.JDBC") withSession {
 
       // A simple table named Cats
-      object Cats extends Table[(Int, String)]("PERSONS") {
+      object Cats extends Table[(Int, String)]("CATS") {
         def id = column[Int]("ID", O.PrimaryKey) // The primary key column
         def name = column[String]("NAME")
          // Every table needs a * projection with the same type as the table's type parameter
