@@ -18,4 +18,4 @@ project/plugins/project/
 .cache
 
 # Project specific
-testdb.db
+/*.db
